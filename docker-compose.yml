@@ -1,0 +1,11 @@
+services:
+  jupyterlab:
+    container_name: jupyterlab
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 8888:8888
+    volumes:
+      - .:/home
+    tty: true
