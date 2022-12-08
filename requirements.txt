@@ -5,8 +5,8 @@ pandas
 matplotlib
 seaborn
 scikit-learn
+sklego
 xgboost
 lightgbm
 scipy
 statsmodels
-
